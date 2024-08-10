@@ -34,6 +34,26 @@ nav {
     
 }
 
+
+#about h2{
+    font-size: 40px;
+}
+ 
+#about p{
+    text-shadow: 
+                0 0 10px rgba(255, 255, 255, 0.8),
+                0 0 20px rgba(255, 255, 255, 0.6),
+                0 0 30px rgba(255, 255, 255, 0.4),
+                0 0 40px rgba(0, 153, 255, 0.958),
+                0 0 70px rgba(255, 179, 0, 0.8),
+                0 0 80px rgba(255, 255, 0, 0.8),
+                0 0 100px rgba(0, 255, 68, 0.8);
+}
+#projects h1{
+    font-size: 40px;
+color: #f06e31;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -70,6 +90,10 @@ section {
 #skills{
     background-image: url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?q=80&w=1730&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
+}
+
+#skills h2{
+    font-size: 40px;
 }
 
 #skills ul li {
@@ -136,10 +160,12 @@ footer {
     color: #fff;
 }
 
-a {
-    color: #0066cc;
+#contact p a {
+    text-decoration: none;
+    color: #9224a8;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration:none;
+    font-size: 15px;
 }
