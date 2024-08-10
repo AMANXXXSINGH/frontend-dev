@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    position: relative;
+    height:100% ;
+    width:100% ;
+    background-color: #dadada;
+}
+
+#plant{
+    position: relative;
+    height: 100%;
+    width: 65%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/indoor-plants-pot-isolated-white-background_158502-323.jpg?w=2000);
+}
+#chotaBlack{ 
+    padding: 50px 100px;
+    justify-content: space-between;
+    display: flex;
+    height: 30%;
+    width:100% ;
+    color: #dadada;
+    position: absolute;
+    background-color: black;
+    top: 70%;
+}
+#right{
+    
+    position: relative;
+    height: 100%;
+    width: 35%;
+    background-color: rgb(244, 242, 244);
+}
+
+#leaf{
+    padding: 15px;
+    position: relative;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 70%;
+    background-size: cover;
+    background-image: url(https://c.wallhere.com/photos/9a/d5/flowers_plants_white_background-2160429.jpg!d);
+}
+#dataArea{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 100%;
+    background-color: rgba(249, 249, 251, 0.419);
+}
+#dataArea #selected{
+    position: relative;
+    margin-left: 30px;
+    
+}
+
+#dataArea #selected::before {
+    left: -15px;
+    top: 12px;
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+
+
+}
+#dataArea a{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing:3px ;
+    font-family: "anurati";
+
+}
+button :hover
+{
+color: rgb(14, 14, 14);
+border-radius: 3PX;
+font-size: 16px;
+background-color: red;
+border: 0px solid white;
+}
+#box1{
+    height: 100%;
+    width: 45%;
+    font-size: 15px;
+}
+#box1 p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+#box2{
+    height: 100%;
+    width: 45%;
+    position: relative;
+    
+}
+.b21{
+    height: 50%;
+    display: flex;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.b211{ 
+    margin-left: 20px;
+    margin-right: 10px;
+height: 100%;
+display: flex;
+width: 100%;
+background-color: ;
+}
+.text21{
+    margin-left: 2px;
+    height: 100%;
+    width: 100%;
+    background-color:transparent;
+    font-size: 10px;
+}
+#btmflwr{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1521206698660-5e077ff6f9c8?q=80&w=1286&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    top: 50%;
+    background-position: bottom;
+    
+}
+#btmflwr i {
+    top: 50%;
+    right:30%;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.574);
+    color: #dadada;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+}
+#icons{
+    position: absolute;
+    right: 15px;
+    display: flex;
+    word-spacing: 5px;
+    flex-direction: column;
+    top: 0.5%;
+}
+#icons i{
+    font-size: 30px;
+}
+#main2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#capsule{
+    border-radius: 6px;
+    bottom: 5%;
+    position: absolute;
+    background-color: wheat;
+}
+#capsule h2{
+    font-size: 20px;
+    color: maroon;
+}
