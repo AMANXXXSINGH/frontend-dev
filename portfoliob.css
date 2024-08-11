@@ -35,6 +35,18 @@ nav {
     
 }
 
+#about p b {
+    text-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6),
+    0 0 30px rgba(255, 255, 255, 0.4),
+    0 0 40px rgba(0, 153, 255, 0.8),
+    0 0 70px rgba(0, 153, 255, 0.8),
+    0 0 80px rgba(0, 153, 255, 0.8),
+    0 0 100px rgba(0, 153, 255, 0.8);
+}
+
+
 nav ul {
     list-style: none;
     padding: 0;
